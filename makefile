@@ -4,7 +4,7 @@
 
 PLAT ?=
 EXE=j-trove$(PLAT).x
-pot_user = pot_H2O_Conway
+pot_user = pot_ch4
 
 ################################################################################
 ## COMPILER OPTIONS
