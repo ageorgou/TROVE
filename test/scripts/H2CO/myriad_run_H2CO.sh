@@ -20,7 +20,7 @@
 #$ -m bea
 
 # Set the working directory to somewhere in your scratch space and copy files
-#$ -wd /home/ccaesja/Scratch/trove
+#$ -wd /home/ccaesja/Scratch
 TROVE_DIR="$HOME/proj-trove/TROVE"
 cp $TROVE_DIR/inputs/H2CO/file1.inp $TMPDIR
 cp $TROVE_DIR/j-trove.x $TMPDIR

@@ -28,10 +28,7 @@ echo "Current directory: `pwd`"
 echo "Using ${nproc} process(es)"
 
 files_to_check=(file{1..2})
-if [[ ${USE_MPI} -ne 1 ]]; then
-  # The intensity file does not work with MPI at the moment
-  files_to_check+=(file_intensity)
-fi
+
 for name in ${files_to_check[@]}; do
   $LAUNCH ./$exe $name.inp -o $name |tee $name.out
 done

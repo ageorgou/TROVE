@@ -5,7 +5,7 @@
 # Run with 'time' to measure resources used for more accurate requests.
 
 # Request wallclock time (format hours:minutes:seconds).
-#$ -l h_rt=12:00:0
+#$ -l h_rt=4:00:0
 
 # Request RAM (must be an integer followed by M, G, or T)
 #$ -l mem=1G
